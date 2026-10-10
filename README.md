@@ -1,162 +1,198 @@
+<h2 id="français">🇫🇷 Version française</h2>
+
 <div align="center">
 
-# FLASHCARDS88
+# 🎯 FLASHCARDS88 — MC88
 
-**Learn. Recall. Repeat.**
+**Un espace calme pour apprendre par répétition espacée.**
 
-*Apprendre. Se souvenir. Répéter.*
+</div>
 
-<br>
+🌍 **Langues :** [Français](#français) · [English](#english)
 
-[![Latest Release](https://img.shields.io/github/v/release/mohamed005cheikh-rgb/FLASHCARDS88-?style=for-the-badge&color=172a45&label=version)](https://github.com/mohamed005cheikh-rgb/FLASHCARDS88-/releases/latest)
-[![Android](https://img.shields.io/badge/Android-8.0%2B-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/mohamed005cheikh-rgb/FLASHCARDS88-/releases/latest)
-[![Size](https://img.shields.io/badge/size-15%20MB-172a45?style=for-the-badge)](https://github.com/mohamed005cheikh-rgb/FLASHCARDS88-/releases/latest)
+---
 
-<br>
+> **En bref** — FLASHCARDS88 est une application de flashcards qui utilise le rappel actif et la répétition espacée.
+> 
+> **Six thèmes · Sauvegarde locale · Aucun compte**
 
-### [⬇️ Download the latest APK](https://github.com/mohamed005cheikh-rgb/FLASHCARDS88-/releases/latest)
+<!-- 
+## 📸 Aperçu
 
-<br>
-
+<div align="center">
+  <img src="https://github.com/MC-MC88/[REPO]/raw/main/images/Sc1.png" alt="[Description]" width="100%" />
 </div>
 
 ---
 
-## What this is
-
-A small, focused flashcard app for Android. You write questions and answers, review them at the moment you are about to forget them, and rate how well you recalled. The app takes care of the rest.
-
-No accounts. No cloud. No tracking. No notifications.
-
----
-
-## A quick look
-
-<p align="center">
-  <img src="screenshots/preview.gif" width="280" alt="FLASHCARDS88 in motion">
-</p>
-
-<p align="center">
-  <em>Create a deck, review a card, rate your recall. That is the whole app.</em>
-</p>
-
-<!--
-  To display your GIF:
-  1. Create a folder named "screenshots" in the repository root
-  2. Place your GIF inside, named: preview.gif
-  3. Commit and push — GitHub will display it automatically
+🔗 **Démo en ligne :** [https://MC-MC88.github.io/[REPO]/](https://MC-MC88.github.io/[REPO]/)
+📦 **Code source :** [https://github.com/MC-MC88/[REPO]](https://github.com/MC-MC88/[REPO]/)
 -->
 
----
+## 👋 Bienvenue
 
-## The philosophy
-
-Most study apps are loud. They send push notifications, chase streaks, and turn learning into a performance. We deliberately took a different path.
-
-**No notifications.** The app never interrupts you. When you open it, it shows what is ready to review — nothing more. Constant reminders turn a personal habit into an external obligation, and they break the focus they claim to protect.
-
-**No accounts.** There is nothing to sign up for, nothing to log into.
-
-**No cloud.** Your decks never leave your device unless you export them yourself.
-
-**No tracking.** No analytics, no advertising, no third-party scripts.
-
-**No gamification.** No leagues, no badges, no streak guilt. Learning is not a game — treating it like one usually backfires.
-
-You decide when to study. The app simply makes it easy.
+FLASHCARDS88 est un fichier HTML unique. Vous créez des decks, vous ajoutez des cartes avec une question et une réponse, puis vous révisez au bon moment. Tout est stocké dans votre navigateur. Aucune donnée ne quitte votre appareil.
 
 ---
 
-## How it works
+## ✨ Ce que vous trouverez
 
-Two ideas, kept simple.
+**Répétition espacée (SM-2).**  
+Chaque carte revient selon un intervalle calculé à partir de votre note : Again, Hard, Good ou Easy. Plus vous notez honnêtement, plus le rythme devient précis.
 
-**Active recall.** You try to remember before seeing the answer. That small effort is what builds memory — not re-reading.
+**Six thèmes visuels.**  
+Paper, Aurora, Ember, Night, Mono et Violet. Le thème suit aussi la préférence du système.
 
-**Spaced repetition.** Each card returns just before you are about to forget it, scheduled by the SM-2 algorithm. The more honestly you rate your recall, the sharper the next interval becomes.
+**Import et export.**  
+Sauvegardez vos decks en JSON. Importez un fichier CSV ou un export Anki pour créer des cartes en masse.
 
----
+**Statistiques locales.**  
+Streak, meilleur streak, total de révisions, heatmap sur 12 semaines et performance par deck.
 
-## Features
-
-- **SM-2 spaced repetition** — each card adapts to your memory
-- **Six themes** — Paper, Aurora, Ember, Night, Mono, Violet
-- **Backup and restore** — one JSON file with everything
-- **CSV / Anki import** — bring your cards from other apps
-- **Swipe to rate** — left for Again, right for Good
-- **Haptic feedback** — small taps on flip and rating
-- **Offline first** — works without internet, always
-- **No permissions beyond storage** — nothing else requested
+**Aucune distraction.**  
+Pas de notifications, pas de gamification, pas de publicité, pas de compte.
 
 ---
 
-## Install
+## 🧭 Comment ça marche
 
-**Option 1 — Direct download**
+**1. Créez un deck.**  
+Un deck représente un sujet. Donnez-lui un nom, une description et une couleur.
 
-1. Open [the latest release](https://github.com/mohamed005cheikh-rgb/FLASHCARDS88-/releases/latest)
-2. Download `88.apk`
-3. Open the file on your Android phone
-4. If Android asks, allow installing from unknown sources
-5. Tap Install
+**2. Ajoutez des cartes.**  
+Chaque carte a une question (front) et une réponse (back). Une image est optionnelle.
 
-**Option 2 — Scan the QR code**
+**3. Révisez.**  
+Lisez la question, essayez de répondre de mémoire, puis retournez la carte.
 
-<p align="center">
-  <img src="screenshots/qr-code.png" width="200" alt="Scan to download FLASHCARDS88">
-</p>
+**4. Notez votre rappel.**  
+Choisissez Again, Hard, Good ou Easy. L'intervalle suivant est calculé automatiquement.
 
-<p align="center">
-  <em>Scan with your phone camera to open the download page.</em>
-</p>
+C'est tout. Vos decks restent sur votre appareil.
 
-<!--
-  To display your QR code:
-  1. Place your QR code inside the "screenshots" folder
-  2. Name it: qr-code.png
-  3. Commit and push
+---
+
+## 🛠️ Petits coups de main
+
+**Faut-il un compte ?**  
+Non. Aucun compte, aucun e-mail, aucune inscription.
+
+**Où sont stockés mes decks ?**  
+Dans le stockage local de votre navigateur, sur votre appareil uniquement.
+
+**Puis-je utiliser l'application hors ligne ?**  
+Oui, une fois la page chargée. Aucune connexion n'est nécessaire pour réviser.
+
+**Que se passe-t-il si je vide le cache du navigateur ?**  
+Vos decks peuvent être supprimés. Utilisez « Backup now » dans les réglages pour sauvegarder vos données.
+
+---
+
+<br /><br /><br />
+
+<h2 id="english">🇬🇧 English version</h2>
+
+<div align="center">
+
+# 🎯 FLASHCARDS88 — MC88
+
+**A calm space to learn with spaced repetition.**
+
+</div>
+
+🌍 **Languages:** [Français](#français) · [English](#english)
+
+---
+
+> **In short** — FLASHCARDS88 is a flashcard app that uses active recall and spaced repetition.
+> 
+> **Six themes · Local storage · No account**
+
+<!-- 
+## 📸 Preview
+
+<div align="center">
+  <img src="https://github.com/MC-MC88/[REPO]/raw/main/images/Sc1.png" alt="[Description]" width="100%" />
+</div>
+
+---
+
+🔗 **Live demo:** [https://MC-MC88.github.io/[REPO]/](https://MC-MC88.github.io/[REPO]/)
+📦 **Source code:** [https://github.com/MC-MC88/[REPO]](https://github.com/MC-MC88/[REPO]/)
 -->
 
-**A note about the warning.** Android will warn you that this app comes from an unknown source. That is standard for any APK distributed outside the Play Store. The app is safe, open, and auditable — the full source is in this repository.
+## 👋 Welcome
+
+FLASHCARDS88 is a single HTML file. You create decks, you add cards with a question and an answer, then you review at the right time. Everything is stored in your browser. No data leaves your device.
 
 ---
 
-## Requirements
+## ✨ What you'll find
 
-- Android 8.0 (Oreo) or later
-- About 15 MB of free storage
-- No internet connection required after install
+**Spaced repetition (SM-2).**  
+Each card returns at an interval calculated from your rating: Again, Hard, Good or Easy. The more honest your rating, the sharper the schedule.
+
+**Six visual themes.**  
+Paper, Aurora, Ember, Night, Mono and Violet. The theme also follows the system preference.
+
+**Import and export.**  
+Back up your decks as JSON. Import a CSV file or an Anki export to create cards in bulk.
+
+**Local statistics.**  
+Streak, best streak, total reviews, a 12-week heatmap and per-deck performance.
+
+**No distraction.**  
+No notifications, no gamification, no ads, no account.
 
 ---
 
-## Your data
+## 🧭 How it works
 
-Everything is stored locally on your device. Nothing is uploaded anywhere. Ever.
+**1. Create a deck.**  
+A deck represents a subject. Give it a name, a description and a colour.
 
-If you clear your browser data or uninstall the app, your decks will be removed too. Use **Backup now** in Settings to save a copy you can restore or move to another device.
+**2. Add cards.**  
+Each card has a question (front) and an answer (back). An image is optional.
 
-You can export your full library at any time as a single JSON file. You can also import decks from CSV files or from an Anki export.
+**3. Review.**  
+Read the question, try to answer from memory, then flip the card.
+
+**4. Rate your recall.**  
+Choose Again, Hard, Good or Easy. The next interval is calculated automatically.
+
+That's it. Your decks stay on your device.
 
 ---
 
-## About
+## 🛠️ A little help
 
-**FLASHCARDS88** is an independent project, designed and built by **MC88**.
+**Do I need an account?**  
+No. No account, no email, no sign-up.
 
-It is not affiliated with any company, does not have investors, and does not intend to monetize. It exists because a quiet, honest study tool should exist.
+**Where are my decks stored?**  
+In your browser's local storage, on your device only.
 
-If you find a bug, please [open an issue](https://github.com/mohamed005cheikh-rgb/FLASHCARDS88-/issues).
+**Can I use the app offline?**  
+Yes, once the page is loaded. No connection is needed to review.
 
-If you build something with it, or simply find it useful, I would like to hear about it.
-
-**Contact:** Mohamed005cheikh@gmail.com
+**What happens if I clear my browser cache?**  
+Your decks may be deleted. Use "Backup now" in Settings to save your data.
 
 ---
 
 <div align="center">
 
-**Built for learning, not distraction.**
+### 📞 Une question, une idée ? / A question, an idea?
 
-<sub>© MC88 · FLASHCARDS88 v2.1.0</sub>
+[![Email](https://img.shields.io/badge/Email-mohamed005cheikh@gmail.com-d14836?style=flat-square&logo=gmail&logoColor=white)](mailto:mohamed005cheikh@gmail.com)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-+222_30_72_64_75-25D366?style=flat-square&logo=whatsapp&logoColor=white)](https://wa.me/22230726475)
+[![GitHub](https://img.shields.io/badge/GitHub-MC--MC88-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/MC-MC88)
+[![Portfolio](https://img.shields.io/badge/Portfolio-MC88-000?style=flat-square&logo=github&logoColor=white)](https://MC-MC88.github.io/MC88/)
+
+<br />
+
+*Apprendre, retenir / Learn, recall*
+
+<sub>MIT License · © 2026 Mohamed Cheikh — MC88</sub>
 
 </div>
